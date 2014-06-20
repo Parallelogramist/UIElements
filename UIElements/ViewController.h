@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UISegmentedControl *segments;
+    IBOutlet UILabel *segLabel;
+    
+    IBOutlet UISwitch *switchThing;
+    IBOutlet UILabel *switchLabel;
+    
+    IBOutlet UISlider *slider;
+    IBOutlet UILabel *sliderLabel;
+}
+- (IBAction)segmentChanged:(id)sender;
+- (IBAction)switchChanged:(id)sender;
+- (IBAction)sliderChanged:(id)sender;
 
 @end
