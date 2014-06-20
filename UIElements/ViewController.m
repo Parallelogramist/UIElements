@@ -27,6 +27,7 @@
 }
 
 - (IBAction)segmentChanged:(id)sender {
+    //should try switch
     if (segments.selectedSegmentIndex == 0) {
         segLabel.text = [segments titleForSegmentAtIndex:segments.selectedSegmentIndex];
     }else if (segments.selectedSegmentIndex == 1) {
